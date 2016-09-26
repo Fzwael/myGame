@@ -1,0 +1,13 @@
+.scroll {
+    height: 100%;
+}
+.gamesListImage{
+    border: 3px solid #86ee1e;
+    height: 100%;
+    width: 100%;
+}
+.col{
+    width: 50%;
+    height: 200px;
+    border: 3px solid #ee586f;
+}
