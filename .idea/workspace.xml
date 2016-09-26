@@ -2,102 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39f10af2-6640-470c-b69b-67b1f5ad3c4b" name="Default" comment="initial commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/adam.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/ben.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/ionic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/max.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/mike.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/perry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/alecso.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hooks/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hooks/after_prepare/010_add_platform_class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/ionic.app.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/css/ionic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/css/ionic.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular-ui/angular-ui-router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular-ui/angular-ui-router.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-animate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-animate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-resource.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-resource.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-sanitize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-sanitize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_action-sheet.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_animations.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_backdrop.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_button-bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_button.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_checkbox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_form.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_items.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_loading.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_modal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_platform.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_popover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_popup.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_progress.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_radio.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_range.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_refresher.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_scaffolding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_select.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_slide-box.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_slides.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_spinner.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_tabs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_toggle.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_transitions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_type.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_util.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/ionic.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-font.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/ionicons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/ionic/version.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/service-worker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/chat-detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/tab-account.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/tab-chats.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/tab-dash.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/tabs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
     </list>
     <ignored path="alecso.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -115,8 +21,29 @@
   <component name="FavoritesManager">
     <favorites_list name="alecso" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/www/index.html" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -188,6 +115,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alecso" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alecso" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -250,19 +191,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474924267974</updated>
-      <workItem from="1474924269971" duration="285000" />
+      <workItem from="1474924269971" duration="418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="285000" />
+    <option name="totallyTimeSpent" value="418000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1378" height="744" extended-state="1" />
-    <editor active="false" />
+    <frame x="-8" y="0" width="1378" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -299,5 +240,15 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
