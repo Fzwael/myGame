@@ -1,4 +1,4 @@
-angular.module('mainApp', ['ionic', 'onezone-datepicker', 'ngCordova', 'uiGmapgoogle-maps'])
+angular.module('mainApp', ['ionic','ngCordova'])
 
     .run(function ($ionicPlatform) {
         $ionicPlatform.ready(function () {
@@ -17,12 +17,6 @@ angular.module('mainApp', ['ionic', 'onezone-datepicker', 'ngCordova', 'uiGmapgo
         $ionicConfigProvider.tabs.position('bottom'); // other values: top
 
     }])
-
-    .config(['uiGmapGoogleMapApiProvider', function (GoogleMapApiProviders) {
-            GoogleMapApiProviders.configure({
-                china: true
-            });
-        }])
 
     .config(function ($stateProvider, $urlRouterProvider) {
         $stateProvider

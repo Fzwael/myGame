@@ -4,6 +4,8 @@
 angular.module('mainApp')
     .controller('game3Controller', function ($scope , $timeout) {
         console.log("GAME3 Controller");
+        // LOAD AUDIOS
+
         var index;
         resetGame();
         addColor();
@@ -31,7 +33,7 @@ angular.module('mainApp')
 
                     if(i % 2 == 0){
                         document.getElementById("color" + $scope.sequence[i/2]).style.filter = "invert(100%)";
-                        playAudio(3);
+                        playAudio($scope.sequence[i/2]);
                     }
                     else{
                         document.getElementById("color" + $scope.sequence[(i-1)/2]).style.filter = "none";
