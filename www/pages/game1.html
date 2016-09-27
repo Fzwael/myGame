@@ -5,14 +5,238 @@
 
     <ion-content class="has-header has-footer">
 
-        <div ng-app="flip" ng-controller="game1Controller">
-            <div class="flip">
-                <div class="card" ng-class="{'flipped':isFlipped}" ng-click="isFlipped=!isFlipped">
-                    <div class="face front">
-                        Front
+
+        <div class="row row-game1">
+            <div class="col col-game1">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div id="flipper1" class="flipper">
+                        <div class="front">
+                            <!-- front content -->
+                            <img ng-click="check(1,cardsArray[0])" class="cardPic" src="../img/game1/card.png">
+                        </div>
+                        <div class="back">
+                            <!-- back content -->
+                            <img class="cardPic" src="../img/game1/{{cardsArray[0]}}.png">
+                        </div>
                     </div>
-                    <div class="face back">
-                        Back
+                </div>
+            </div>
+            <div class="col col-game1col-game1">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div id="flipper2" class="flipper">
+                        <div class="front">
+                            <!-- front content -->
+                            <img ng-click="check(2,cardsArray[1])" class="cardPic" src="../img/game1/card.png">
+                        </div>
+                        <div class="back">
+                            <!-- back content -->
+                            <img class="cardPic" src="../img/game1/{{cardsArray[1]}}.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-game1">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div id="flipper3" class="flipper">
+                        <div class="front">
+                            <!-- front content -->
+                            <img ng-click="check(3,cardsArray[2])" class="cardPic" src="../img/game1/card.png">
+                        </div>
+                        <div class="back">
+                            <!-- back content -->
+                            <img class="cardPic" src="../img/game1/{{cardsArray[2]}}.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-game1">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div id="flipper4" class="flipper">
+                        <div class="front">
+                            <!-- front content -->
+                            <img ng-click="check(4,cardsArray[3])" class="cardPic" src="../img/game1/card.png">
+                        </div>
+                        <div class="back">
+                            <!-- back content -->
+                            <img class="cardPic" src="../img/game1/{{cardsArray[3]}}.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-game1">
+            <div class="col col-game1">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div id="flipper5" class="flipper">
+                        <div class="front">
+                            <!-- front content -->
+                            <img ng-click="check(5,cardsArray[4])" class="cardPic" src="../img/game1/card.png">
+                        </div>
+                        <div class="back">
+                            <!-- back content -->
+                            <img class="cardPic" src="../img/game1/{{cardsArray[4]}}.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-game1col-game1">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div id="flipper6" class="flipper">
+                        <div class="front">
+                            <!-- front content -->
+                            <img ng-click="check(6,cardsArray[5])" class="cardPic" src="../img/game1/card.png">
+                        </div>
+                        <div class="back">
+                            <!-- back content -->
+                            <img class="cardPic" src="../img/game1/{{cardsArray[5]}}.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-game1">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div id="flipper7" class="flipper">
+                        <div class="front">
+                            <!-- front content -->
+                            <img ng-click="check(7,cardsArray[6])" class="cardPic" src="../img/game1/card.png">
+                        </div>
+                        <div class="back">
+                            <!-- back content -->
+                            <img class="cardPic" src="../img/game1/{{cardsArray[6]}}.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-game1">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div id="flipper8" class="flipper">
+                        <div class="front">
+                            <!-- front content -->
+                            <img ng-click="check(8,cardsArray[7])" class="cardPic" src="../img/game1/card.png">
+                        </div>
+                        <div class="back">
+                            <!-- back content -->
+                            <img class="cardPic" src="../img/game1/{{cardsArray[7]}}.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-game1">
+            <div class="col col-game1">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div id="flipper9" class="flipper">
+                        <div class="front">
+                            <!-- front content -->
+                            <img ng-click="check(9,cardsArray[8])" class="cardPic" src="../img/game1/card.png">
+                        </div>
+                        <div class="back">
+                            <!-- back content -->
+                            <img class="cardPic" src="../img/game1/{{cardsArray[8]}}.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-game1col-game1">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div id="flipper10" class="flipper">
+                        <div class="front">
+                            <!-- front content -->
+                            <img ng-click="check(10,cardsArray[9])" class="cardPic" src="../img/game1/card.png">
+                        </div>
+                        <div class="back">
+                            <!-- back content -->
+                            <img class="cardPic" src="../img/game1/{{cardsArray[9]}}.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-game1">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div id="flipper11" class="flipper">
+                        <div class="front">
+                            <!-- front content -->
+                            <img ng-click="check(11,cardsArray[10])" class="cardPic" src="../img/game1/card.png">
+                        </div>
+                        <div class="back">
+                            <!-- back content -->
+                            <img class="cardPic" src="../img/game1/{{cardsArray[10]}}.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-game1">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div id="flipper12" class="flipper">
+                        <div class="front">
+                            <!-- front content -->
+                            <img ng-click="check(12,cardsArray[11])" class="cardPic" src="../img/game1/card.png">
+                        </div>
+                        <div class="back">
+                            <!-- back content -->
+                            <img class="cardPic" src="../img/game1/{{cardsArray[11]}}.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-game1">
+            <div class="col col-game1">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div id="flipper13" class="flipper">
+                        <div class="front">
+                            <!-- front content -->
+                            <img ng-click="check(13,cardsArray[12])" class="cardPic" src="../img/game1/card.png">
+                        </div>
+                        <div class="back">
+                            <!-- back content -->
+                            <img class="cardPic" src="../img/game1/{{cardsArray[12]}}.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-game1col-game1">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div id="flipper14" class="flipper">
+                        <div class="front">
+                            <!-- front content -->
+                            <img ng-click="check(14,cardsArray[13])" class="cardPic" src="../img/game1/card.png">
+                        </div>
+                        <div class="back">
+                            <!-- back content -->
+                            <img class="cardPic" src="../img/game1/{{cardsArray[13]}}.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-game1">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div id="flipper15" class="flipper">
+                        <div class="front">
+                            <!-- front content -->
+                            <img ng-click="check(15,cardsArray[14])" class="cardPic" src="../img/game1/card.png">
+                        </div>
+                        <div class="back">
+                            <!-- back content -->
+                            <img class="cardPic" src="../img/game1/{{cardsArray[14]}}.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-game1">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div id="flipper16" class="flipper">
+                        <div class="front">
+                            <!-- front content -->
+                            <img ng-click="check(16,cardsArray[15])" class="cardPic" src="../img/game1/card.png">
+                        </div>
+                        <div class="back">
+                            <!-- back content -->
+                            <img class="cardPic" src="../img/game1/{{cardsArray[15]}}.png">
+                        </div>
                     </div>
                 </div>
             </div>
