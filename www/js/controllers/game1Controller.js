@@ -4,4 +4,5 @@
 angular.module('mainApp')
     .controller('game1Controller', function ($scope) {
         console.log("GAME1 Controller")
+
     });

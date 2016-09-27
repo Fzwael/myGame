@@ -4,6 +4,19 @@
     </div>
 
     <ion-content class="has-header has-footer">
-        <p> WAEL FEZAI </p>
+
+        <div ng-app="flip" ng-controller="game1Controller">
+            <div class="flip">
+                <div class="card" ng-class="{'flipped':isFlipped}" ng-click="isFlipped=!isFlipped">
+                    <div class="face front">
+                        Front
+                    </div>
+                    <div class="face back">
+                        Back
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </ion-content>
 </ion-content>

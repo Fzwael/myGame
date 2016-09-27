@@ -1,0 +1,19 @@
+.game2Pics{
+    border: 3px solid #0016ff;
+    height: 100%;
+    width: 100%;
+}
+.col-game2{
+    height: 10%;
+    border: 3px solid #5aee00;
+}
+.col-game2-intiial{
+    border: 3px solid #ee00e2;
+}
+.col-game2-final{
+    border: 3px solid #ee0f00;
+}
+.col-game2-final .game2Pics{
+    width: 50%;
+    margin-left: 25%;
+}
