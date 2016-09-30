@@ -2,7 +2,7 @@
     height: 100%;
 }
 .gamesListImage{
-    border: 3px solid #86ee1e;
+    border: 2px solid #000000;
     height: 100%;
     width: 100%;
 }
@@ -12,3 +12,35 @@
     /*border: 3px solid #ee586f;*/
 }
 
+.gamesList{
+    /*border: 3px solid #000000;*/
+    position: relative;
+    top: 60%;
+    transform: translateY(-60%);
+}
+
+.gamesSelectText{
+    /*background-color: #4b8bf4;*/
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    color: #ee0f00;
+    font-size: 400%;
+    font-weight: bold;
+    font-family: "Courier New";
+}
+
+.homeButton{
+    height: 5%;
+    width: 10%;
+    position: absolute;
+    bottom: 5%;
+    right: 42%;
+}
+
+.ion-home{
+    color: red;
+    font-size: 350%;
+    padding-right: 12%;
+}
