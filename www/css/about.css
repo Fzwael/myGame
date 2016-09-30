@@ -1,0 +1,15 @@
+.aboutContent {
+    /*border: 3px solid #000000;*/
+    position: relative;
+    top: 60%;
+    transform: translateY(-60%);
+}
+
+.aboutContent h2 ,.aboutContent h3 , .aboutContent p {
+    text-align: center;
+}
+
+.aboutContent img{
+    width: 50%;
+    margin-left: 25%;
+}

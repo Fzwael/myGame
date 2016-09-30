@@ -4,3 +4,20 @@
 @import "game2.css";
 @import "game3.css";
 @import "game4.css";
+@import "about.css";
+
+.homeButton {
+    height: 8%;
+    width: 15%;
+    position: absolute;
+    bottom: 2%;
+    right: 34%;
+}
+
+.backButton {
+    height: 8%;
+    width: 15%;
+    position: absolute;
+    bottom: 2%;
+    right: 50%;
+}
