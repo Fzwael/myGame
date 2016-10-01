@@ -4,8 +4,7 @@
 <audio id="audio4"><source src="./sounds/game3/G.MP3" type="audio/mp3" /></audio>
 
 
-<ion-content>
-    <div class="background">
+<ion-content scroll="false">
         <p> SCORE {{score}} </p>
 
 
@@ -19,9 +18,49 @@
             <div class="col col-game3"> <img id="color4" ng-style="style4" ng-click="check(4)" src="./img/game3/color4.png" class="game3Pics"> </div>
         </div>
 
-        <!--home & bacl buttons-->
-        <a href="#/welcome"><img class="homeButton" src="./img/home.png"></a>
-        <a href="#/games"><img class="backButton" src="./img/back.png"></a>
+    <!--pause button-->
+    <img class="openModalButton" src="./img/pause.png" ng-click="openModal('jelly')">
 
-</div>
+    <!--pause modal-->
+
+    <script id="pause-modal" type="text/ng-template">
+        <ion-modal-view class="ion-nifty-modal">
+            <div class="ion-modal-content-custom">
+                <ion-content scroll="false" class="padding">
+
+                    <img class="game1ModalPic" src="./img/game1/click.png">
+                    <h4 style="text-align: center"> CLICK WITH THE SAME ORDER </h4>
+
+                    <!--close button-->
+                    <img  class="closeModalButton" src="./img/close.png" ng-click="closeModal()">
+                    <!--home button-->
+                    <a href="#/welcome" ng-click="closeModal()"><img class="homeButton" src="./img/home.png"></a>
+                    <!--back button-->
+                    <a href="#/games" ng-click="closeModal()"><img class="backButton" src="./img/back.png"></a>
+                </ion-content>
+            </div>
+        </ion-modal-view>
+    </script>
+
+    <!--win / lose moadal-->
+
+    <script id="winlose-modal" type="text/ng-template">
+        <ion-modal-view class="ion-nifty-modal">
+            <div class="ion-modal-content-custom">
+                <ion-content scroll="false" class="padding">
+                    <h2 style="text-align: center"> GAME OVER! </h2>
+                    <h2 style="text-align: center"> YOUR SCORE IS {{score}} </h2>
+
+
+                    <!--replay button-->
+                    <img  class="closeModalButton" src="./img/replay.png" ng-click="replayGame3()">
+                    <!--home button-->
+                    <a href="#/welcome" ng-click="modal.hide()"><img class="homeButton" src="./img/home.png"></a>
+                    <!--back button-->
+                    <a href="#/games" ng-click="modal.hide()"><img class="backButton" src="./img/back.png"></a>
+                </ion-content>
+            </div>
+        </ion-modal-view>
+    </script>
+
 </ion-content>

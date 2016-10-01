@@ -33,12 +33,6 @@ angular.module('mainApp', ['ionic','ngCordova'])
                 templateUrl: 'pages/games.html',
                 controller: 'gamesController'
             })
-            .state('badges', {
-                cache: false,
-                url: '/badges',
-                templateUrl: 'pages/badges.html',
-                controller: 'badgesController'
-            })
             .state('about', {
                 cache: false,
                 url: '/about',

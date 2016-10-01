@@ -14,6 +14,13 @@
     height: 24%;
 }
 
+.game1ModalPic{
+    height: 60%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+
 /* entire container, keeps perspective */
 /*.flip-container {
     perspective: 1000px;
