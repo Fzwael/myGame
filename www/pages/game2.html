@@ -1,14 +1,14 @@
+<audio id="correct"><source src="./sounds/game2/correct.mp3" type="audio/mp3" /></audio>
+<audio id="wrong"><source src="./sounds/game2/wrong.mp3" type="audio/mp3" /></audio>
+
 <ion-content scroll="false">
 
     <!--picture-->
-    <img ng-src="./img/game2/cat.jpg" class="game2Pic"/>
+    <img ng-src="./img/game2/{{picture}}" class="game2Pic"/>
 
     <!--word with missing letter-->
     <div class="row row-game2">
         <div class="col col-game2" ng-repeat="letter in wordsub track by $index"><h1>{{letter}}</h1></div>
-
-        <!--<div class="col col-game2"><h1> خ </h1></div>
-        <div class="col col-game2"><h1> أ </h1></div>-->
     </div>
 
     <!--two rows of choices-->

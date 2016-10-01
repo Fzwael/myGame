@@ -52,7 +52,7 @@ angular.module('mainApp')
                     if (i < $scope.sequence.length * 2) {            //  if the counter < lenght, call the loop function
                         myLoop();             //  ..  again which will trigger another
                     }                        //  ..  setTimeout()
-                }, 500) // no need for time because sound is playing and thus delays execusion
+                }, 500); // no need for time because sound is playing and thus delays execusion
             }
 
             myLoop();                      //  start the loop
