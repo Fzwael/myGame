@@ -75,11 +75,34 @@ angular.module('mainApp')
         };
 
         $scope.check = function (color) {
+
+            var i = 0;                     //  set your counter to 1
+            document.getElementById("color" + color).style.filter = "invert(100%)";
+            i++;
+            function myLoop() {           //  create a loop function
+                setTimeout(function () {    //  call a 1s setTimeout when the loop is called
+                    if (i % 2 == 0) {
+                        document.getElementById("color" + color).style.filter = "invert(100%)";
+                    }
+                    else {
+                        document.getElementById("color" + color).style.filter = "none";
+                    }
+                    i++;                     //  increment the counter
+                    if (i < 2) {            //  if the counter < lenght, call the loop function
+                        myLoop();             //  ..  again which will trigger another
+                    }                        //  ..  setTimeout()
+                }, 500); // no need for time because sound is playing and thus delays execusion
+            }
+
+            myLoop();                      //  start the loop
+
             if ($scope.sequence[index] == color) {
                 index++;
                 if (index == $scope.sequence.length) {
                     $scope.score++;
-                    addColor();
+                    setTimeout(function () {
+                        addColor();
+                    }, 1500);
                 }
 
             } else {

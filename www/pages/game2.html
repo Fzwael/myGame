@@ -1,44 +1,68 @@
 <ion-content scroll="false">
-        <div class="row">
-            <div class="col col-game2">
-                <img ng-src="./img/game2/eq1.png" class="full-image game2Pics"/>
+
+    <!--picture-->
+    <img ng-src="./img/game2/cat.jpg" class="game2Pic"/>
+
+    <!--word with missing letter-->
+    <div class="row row-game2">
+        <div class="col col-game2" ng-repeat="letter in wordsub track by $index"><h1>{{letter}}</h1></div>
+
+        <!--<div class="col col-game2"><h1> خ </h1></div>
+        <div class="col col-game2"><h1> أ </h1></div>-->
+    </div>
+
+    <!--two rows of choices-->
+    <div class="game2Choices">
+    <div class="row">
+        <div class="col col-game2-choice" ng-repeat="choice in choice1 track by $index" ng-click="check($index)"><h1> {{choice}} </h1></div>
+    </div>
+    <div class="row">
+        <div class="col col-game2-choice" ng-repeat="choice in choice2 track by $index" ng-click="check($index + 5)"><h1> {{choice}} </h1></div>
+    </div>
+    </div>
+
+    <!--pause button-->
+    <img class="openModalButton" src="./img/pause.png" ng-click="openModal('jelly')">
+
+    <!--pause modal-->
+
+    <script id="pause-modal" type="text/ng-template">
+        <ion-modal-view class="ion-nifty-modal">
+            <div class="ion-modal-content-custom">
+                <ion-content scroll="false" class="padding">
+
+                    <img class="game1ModalPic" src="./img/game1/click.png">
+                    <h4 style="text-align: center"> FIND THE HIDDEN WORD </h4>
+
+                    <!--close button-->
+                    <img class="closeModalButton" src="./img/close.png" ng-click="closeModal()">
+                    <!--home button-->
+                    <a href="#/welcome" ng-click="closeModal()"><img class="homeButton" src="./img/home.png"></a>
+                    <!--back button-->
+                    <a href="#/games" ng-click="closeModal()"><img class="backButton" src="./img/back.png"></a>
+                </ion-content>
             </div>
+        </ion-modal-view>
+    </script>
 
-            <div class="col col-game2">
-                <img ng-src="./img/game2/eq1.png" class="full-image game2Pics"/>
+    <!--win / lose moadal-->
+
+    <script id="winlose-modal" type="text/ng-template">
+        <ion-modal-view class="ion-nifty-modal">
+            <div class="ion-modal-content-custom">
+                <ion-content scroll="false" class="padding">
+                    <h2 style="text-align: center"> YOU WIN AFTER {{clicks}} CLICKS! </h2>
+
+                    <!--replay button-->
+                    <img class="closeModalButton" src="./img/replay.png" ng-click="replay()">
+                    <!--home button-->
+                    <a href="#/welcome" ng-click="modal.hide()"><img class="homeButton" src="./img/home.png"></a>
+                    <!--back button-->
+                    <a href="#/games" ng-click="modal.hide()"><img class="backButton" src="./img/back.png"></a>
+                </ion-content>
             </div>
-        </div>
+        </ion-modal-view>
+    </script>
 
-        <div class="row">
-            <div class="col col-game2">
-                <img ng-src="./img/game2/eq1.png" class="full-image game2Pics"/>
-            </div>
-
-            <div class="col col-game2">
-                <img ng-src="./img/game2/eq1.png" class="full-image game2Pics"/>
-            </div>
-        </div>
-
-        <br> <br>
-
-        <div class="row">
-            <div class="col col-game2">
-                <img ng-src="./img/game2/sol1.png" class="full-image game2Pics"/>
-            </div>
-
-            <div class="col col-game2">
-                <img ng-src="./img/game2/sol2.png" class="full-image game2Pics"/>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col col-game2 col-game2-final">
-                <img ng-src="./img/game2/sol3.png" class="full-image game2Pics"/>
-            </div>
-        </div>
-
-        <!--home & bacl buttons-->
-        <a href="#/welcome"><img class="homeButton" src="./img/home.png"></a>
-        <a href="#/games"><img class="backButton" src="./img/back.png"></a>
 
 </ion-content>

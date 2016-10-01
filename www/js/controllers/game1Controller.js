@@ -42,7 +42,7 @@ angular.module('mainApp')
                 }
             }
             // console.log("N of solved cards" , solved);
-            if(solved == 1){
+            if(solved == 8){
                 // when you solve all 8
                 // console.log("you wiiiiiiiiiiiiin !");
 
