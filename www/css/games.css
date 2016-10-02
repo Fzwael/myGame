@@ -3,7 +3,7 @@
 }
 
 .gamesListImage {
-    border: 2px solid #000000;
+    border: 5px solid #90278e;
     height: 100%;
     width: 100%;
 }
@@ -24,14 +24,19 @@
 .gamesSelectText {
     /*background-color: #4b8bf4;*/
     position: absolute;
-    top: 0;
+    top: 8%;
     width: 100%;
     height: auto;
     text-align: center;
-    color: #ee0f00;
-    font-size: 250%;
+    color: #90278e;
+    font-size: 350%;
     font-weight: bold;
-    font-family: "Courier New";
+    font-family: "kidsFont";
+}
+
+@font-face {
+    font-family: kidsFont;
+    src: url(../fonts/A_Nefel_Botan.ttf);
 }
 
 .homeButtonGames {

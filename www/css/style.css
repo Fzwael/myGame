@@ -1,11 +1,11 @@
 @import "welcome.css";
+@import "welcomeButtons.css";
 @import "games.css";
 @import "game1.css";
 @import "game2.css";
 @import "game3.css";
 @import "game4.css";
 @import "about.css";
-
 .homeButton {
     height: 20%;
     width: 15%;
@@ -41,7 +41,12 @@
 ion-content {
     width: 100%;
     height: 100%;
-    background-image: url("../img/background.jpg");
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     position: relative;
 }
 
