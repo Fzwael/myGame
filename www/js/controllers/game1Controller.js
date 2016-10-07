@@ -27,6 +27,7 @@ angular.module('mainApp')
                 document.getElementById("flipper" + index).style.transform = "rotateY(180deg)";
                 if(a == choice){
                     // good choice
+                    correct.play();
                     solved ++ ;
                     a=0;
                 }
