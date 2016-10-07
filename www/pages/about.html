@@ -8,6 +8,37 @@
     </div>
 
     <!--home button-->
-    <a href="#/welcome"><img class="homeButtonGames" src="./img/home.png"></a>
+    <!--<a href="#/welcome"><img class="homeButtonGames" src="./img/home.png"></a>-->
+
+    <!--pause button-->
+    <img class="openModalButton" src="./img/pause.png" ng-click="openModal('jelly')">
+
+    <!--pause modal-->
+
+    <script id="pause-modal" type="text/ng-template">
+        <ion-modal-view class="ion-nifty-modal">
+            <div class="ion-modal-content-custom">
+                <ion-content scroll="false" class="padding">
+
+                    <h4 style="text-align: center"> CLIPART CREDITS </h4>
+
+                    <div style="text-align: center">
+
+                        <div>Icons made by <a href="http://www.flaticon.com/authors/madebyoliver" title="Madebyoliver">Madebyoliver</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+                        <br>
+                        <div>Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+                        <br>
+                        <a href='http://www.freepik.com/free-vector/octopus-logo-template_944368.htm'>Designed by Freepik</a>
+                    </div>
+                    <!--close button-->
+                    <img class="closeModalButton" src="./img/close.png" ng-click="closeModal()">
+                    <!--home button-->
+                    <a href="#/welcome" ng-click="closeModal()"><img class="homeButton" src="./img/home.png"></a>
+                    <!--back button-->
+                    <a href="#/games" ng-click="closeModal()"><img class="backButton" src="./img/back.png"></a>
+                </ion-content>
+            </div>
+        </ion-modal-view>
+    </script>
 
 </ion-content>
