@@ -1,23 +1,33 @@
-<audio id="audio1"><source src="./sounds/game3/A.MP3" type="audio/mp3" /></audio>
-<audio id="audio2"><source src="./sounds/game3/E.MP3" type="audio/mp3" /></audio>
-<audio id="audio3"><source src="./sounds/game3/F.MP3" type="audio/mp3" /></audio>
-<audio id="audio4"><source src="./sounds/game3/G.MP3" type="audio/mp3" /></audio>
+<audio id="audio1">
+    <source src="./sounds/game3/A.MP3" type="audio/mp3"/>
+</audio>
+<audio id="audio2">
+    <source src="./sounds/game3/E.MP3" type="audio/mp3"/>
+</audio>
+<audio id="audio3">
+    <source src="./sounds/game3/F.MP3" type="audio/mp3"/>
+</audio>
+<audio id="audio4">
+    <source src="./sounds/game3/G.MP3" type="audio/mp3"/>
+</audio>
 
 
 <ion-content scroll="false">
-        <p> SCORE {{score}} </p>
+    <p class="score"> {{score}} :النتيجة</p>
 
+    <div class="game">
 
         <div class="row">
-            <div class="col col-game3"> <img id="color1" ng-style="style1" ng-click="check(1)" src="./img/game3/color1.png" class="game3Pics"> </div>
-            <div class="col col-game3"> <img id="color2" ng-style="style2" ng-click="check(2)" src="./img/game3/color2.png" class="game3Pics"> </div>
+            <div class="col col-game3"><img id="color1" ng-style="style1" ng-click="check(1)" src="./img/game3/color1.png" class="game3Pics"></div>
+            <div class="col col-game3"><img id="color2" ng-style="style2" ng-click="check(2)" src="./img/game3/color2.png" class="game3Pics"></div>
         </div>
 
         <div class="row">
-            <div class="col col-game3"> <img id="color3" ng-style="style3" ng-click="check(3)" src="./img/game3/color3.png" class="game3Pics"> </div>
-            <div class="col col-game3"> <img id="color4" ng-style="style4" ng-click="check(4)" src="./img/game3/color4.png" class="game3Pics"> </div>
+            <div class="col col-game3"><img id="color3" ng-style="style3" ng-click="check(3)" src="./img/game3/color3.png" class="game3Pics"></div>
+            <div class="col col-game3"><img id="color4" ng-style="style4" ng-click="check(4)" src="./img/game3/color4.png" class="game3Pics"></div>
         </div>
 
+    </div>
     <!--pause button-->
     <img class="openModalButton" src="./img/pause.png" ng-click="openModal('jelly')">
 
@@ -32,7 +42,7 @@
                     <h4 style="text-align: center"> CLICK WITH THE SAME ORDER </h4>
 
                     <!--close button-->
-                    <img  class="closeModalButton" src="./img/close.png" ng-click="closeModal()">
+                    <img class="closeModalButton" src="./img/close.png" ng-click="closeModal()">
                     <!--home button-->
                     <a href="#/welcome" ng-click="closeModal()"><img class="homeButton" src="./img/home.png"></a>
                     <!--back button-->
@@ -53,7 +63,7 @@
 
 
                     <!--replay button-->
-                    <img  class="closeModalButton" src="./img/replay.png" ng-click="replayGame3()">
+                    <img class="closeModalButton" src="./img/replay.png" ng-click="replayGame3()">
                     <!--home button-->
                     <a href="#/welcome" ng-click="modal.hide()"><img class="homeButton" src="./img/home.png"></a>
                     <!--back button-->

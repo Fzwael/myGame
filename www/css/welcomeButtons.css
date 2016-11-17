@@ -1,8 +1,8 @@
 .welcomeButton {
     position: relative;
-    color: rgba(255,255,255,1);
+    color: rgb(184, 228, 235);
     text-decoration: none;
-    background-color: rgba(219,87,5,1);
+    background-color: rgb(129, 63, 136);
     font-family: 'Yanone Kaffeesatz';
     font-weight: 700;
     font-size: 250%;
@@ -11,9 +11,9 @@
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
-    -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
-    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
-    box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    -webkit-box-shadow: 0px 9px 0px rgb(83, 45, 90), 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 9px 0px rgb(83, 45, 90), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 0px rgb(83, 45, 90), 0px 9px 25px rgba(0,0,0,.7);
     margin: 10% auto;
     width: 60%;
     text-align: center;
@@ -25,9 +25,9 @@
 }
 
 .welcomeButton:active {
-    -webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
-    -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
-    box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    -webkit-box-shadow: 0px 3px 0px rgb(83, 45, 90), 0px 3px 6px rgba(0,0,0,.9);
+    -moz-box-shadow: 0px 3px 0px rgb(92, 50, 100), 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px rgb(108, 58, 117), 0px 3px 6px rgba(0,0,0,.9);
     position: relative;
     top: 7%;
 }

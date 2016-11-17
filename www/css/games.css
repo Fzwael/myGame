@@ -17,8 +17,8 @@
 .gamesList {
     /*border: 3px solid #000000;*/
     position: relative;
-    top: 60%;
-    transform: translateY(-60%);
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .gamesSelectText {
@@ -45,4 +45,8 @@
     position: absolute;
     bottom: 2%;
     right: 42%;
+}
+
+.gameText{
+    font-family: 'kidsFont';
 }
