@@ -1,7 +1,7 @@
 {
-  "name": "alecso",
+  "name": "myGame",
   "version": "1.1.1",
-  "description": "alecso: An Ionic project",
+  "description": "myGame: An Ionic game for children",
   "dependencies": {
     "express": "^4.14.0",
     "gulp": "^3.5.6",
