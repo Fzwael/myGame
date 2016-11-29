@@ -75,7 +75,7 @@ angular.module('mainApp')
         };
 
         $scope.check = function (color) {
-
+            playAudio(color);i
             var i = 0;                     //  set your counter to 1
             document.getElementById("color" + color).style.filter = "invert(100%)";
             i++;
